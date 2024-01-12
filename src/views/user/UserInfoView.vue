@@ -109,7 +109,7 @@ const doShowUserInfo = (row: any) => {
       </div>
     </template>
   </el-page-header>
-  <el-table :data="userInfoList" style="width: 100%; margin-top: 36px;">
+  <el-table :data="userInfoList" style="width: 100%; margin-top: 36px;" class="container">
     <el-table-column fixed prop="userId" label="用户序号" width="120" />
     <el-table-column prop="nickname" label="用户昵称" width="220" />
     <el-table-column prop="email" label="用户邮箱" width="200" />
@@ -217,5 +217,12 @@ const doShowUserInfo = (row: any) => {
 .el-pagination {
   justify-content: center;
   margin-top: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 </style>
