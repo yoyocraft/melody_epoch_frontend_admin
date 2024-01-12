@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { House, User } from "@element-plus/icons-vue";
+// import { House, User } from "@element-plus/icons-vue";
 import { ref, onMounted, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { UserAuthType } from "../model/index"
@@ -36,14 +36,14 @@ watch(
   <el-aside width="200px">
     <el-scrollbar>
       <el-menu :default-active="route.path ?? '/'" @select="doSelect" v-if="currUserType.isAdmin">
-        <el-menu-item index="/">
+        <!-- <el-menu-item index="/">
           <el-icon>
             <House />
           </el-icon>
           <template #title>
             <span>首页</span>
           </template>
-        </el-menu-item>
+        </el-menu-item> -->
         <el-menu-item index="/user">
           <el-icon>
             <User />
