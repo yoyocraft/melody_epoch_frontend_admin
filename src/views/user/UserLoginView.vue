@@ -30,7 +30,7 @@ const url = "/src/assets/logo.png";
 <template>
   <div class="custom-container">
     <div>
-      <el-form class="login-form">
+      <el-form class="login-form" @keyup.enter.native="login">
         <el-image style="width: 100px; height: 100px" :src="url" />
         <h1>Melody-Epoch-Admin</h1>
         <el-tabs v-model="loginType" type="card" class="demo-tabs" stretch>
