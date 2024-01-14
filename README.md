@@ -1,18 +1,36 @@
-# Vue 3 + TypeScript + Vite
+# melody_epoch_frontend_admin
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 技术栈
 
-## Recommended IDE Setup
+> - HTML、CSS、JS
+> - VUE
+> - TS
+> - Elements plus
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 安装及运行
 
-## Type Support For `.vue` Imports in TS
+> - 拉取项目：
+>
+> 	```
+> 	git clone git@github.com:99588WS/melody_epoch_frontend_admin.git
+> 	```
+>
+> 
+>
+> - 安装：
+>
+> 	```
+> 	npm i
+> 	```
+>
+> - 运行：
+>
+> 	```
+> 	npm run dev
+> 	```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 注意
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+> 该项目需要结合后端项目**melody_epoch_backend**一起使用
+>
+> **melody_epoch_backend**: https://github.com/dingxinliang88/melody_epoch_backend
